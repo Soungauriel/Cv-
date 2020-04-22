@@ -1,0 +1,53 @@
+h1 
+{
+    color: rosybrown;
+}
+body
+{
+    background-image: url("greyzz.png");
+}
+h2 
+{
+    border: 3px bisque unset;
+}
+h2
+{
+    box-shadow:6px 6px 6px blanchedalmond;
+}
+strong
+{
+    text-decoration:underline burlywood;
+}
+header
+{
+   text-align: center;
+}
+aside
+{
+    
+    width: 300px;
+    background-color: wheat;
+    margin-right: auto;
+}    
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin-left: 2%;
+   
+}
+aside
+{
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    width: 200px;
+    height: 130vh;
+
+}
+
+
+
+
+
