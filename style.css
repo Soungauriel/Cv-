@@ -5,6 +5,7 @@ header
     font-size: 1.5em;
     width: 90%;
     margin: 0 auto;
+    justify-content: center;
 }
 span
 {
@@ -51,12 +52,8 @@ aside
     float: left;
     display: inline-block;
     vertical-align: top;
-    width: 210px;
-    height: 130vh;
-}
-aside
-{
     width: 250px;
+    height: 130vh;
     background-color: wheat;
     margin-left: auto;
 
@@ -68,10 +65,6 @@ section
     vertical-align: text-top;
     width: 80%;
     margin-right: 2%;
-}
-header
-{
-    justify-content: center;
 }
 section
 {
