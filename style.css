@@ -1,51 +1,87 @@
-h1 
+
+header
 {
-    color: rosybrown;
+    color: burlywood;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0 auto;
 }
-body
+span
 {
-    background-image: url("greyzz.png");
+    text-decoration:underline burlywood;
+    color: olive;
 }
-h2 
+.photo img
 {
-    border: 3px bisque unset;
+    width: 200px;
+    height: 200px;
+    border:3px solid orange;
+    box-shadow:0px 0px 10px orange;
+    border-radius: 50%;
+}
+.contact
+{
+    padding: 0px;
+    margin-left: auto;
+}
+.prez
+{
+    padding: 0px;
+    margin-right: auto;
+}
+.interet
+{
+    padding: 0px;
+    margin-left: auto;
+}
+h3
+{
+    color: black;
+    border: 1px teal;
+    background: teal;
+    
 }
 h2
 {
-    box-shadow:6px 6px 6px blanchedalmond;
+    border: 2px bisque unset;
+    box-shadow: 6px 6px 6px blanchedalmond;
 }
-strong
+aside
 {
-    text-decoration:underline burlywood;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 210px;
+    height: 130vh;
+}
+aside
+{
+    width: 250px;
+    background-color: wheat;
+    margin-left: auto;
+
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    vertical-align: text-top;
+    width: 80%;
+    margin-right: 2%;
 }
 header
 {
-   text-align: center;
+    justify-content: center;
 }
-aside
-{
-    
-    width: 300px;
-    background-color: wheat;
-    margin-right: auto;
-}    
 section
 {
-    display: inline-block;
-    vertical-align: top;
-    width: 70%;
-    margin-left: 2%;
-   
+margin-bottom: 70px;
+text-align: justify;
 }
-aside
-{
-    display: inline-block;
-    vertical-align: top;
-    float: left;
-    width: 200px;
-    height: 130vh;
 
-}
+
+
+
 
 
 
