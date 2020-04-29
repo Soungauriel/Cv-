@@ -1,16 +1,20 @@
 
 header
 {
-    color: burlywood;
+    color: gray;
     font-size: 1.5em;
     width: 90%;
     margin: 0 auto;
     justify-content: center;
 }
-span
+strong
 {
     text-decoration:underline burlywood;
-    color: olive;
+    color: orange;
+}
+span
+{
+    color: orange;
 }
 .photo img
 {
@@ -23,12 +27,14 @@ span
 .contact
 {
     padding: 0px;
-    margin-left: auto;
+    margin: auto;
 }
 .prez
 {
     padding: 0px;
-    margin-right: auto;
+    margin: auto ;
+    
+    
 }
 .interet
 {
@@ -49,30 +55,55 @@ h2
 }
 aside
 {
-    float: left;
-    display: inline-block;
-    vertical-align: top;
-    width: 250px;
-    height: 130vh;
-    background-color: wheat;
-    margin-left: auto;
+    
+    flex-direction: column;
+    align-items: center;
+    width: 19%;
+    height: 958px;
+    min-width: 230px;
+    text-align: center;
+    background-color: orange;
+    
 
 }
 section
 {
-    display: flex;
+    
     justify-content: center;
-    vertical-align: text-top;
-    width: 80%;
+    vertical-align: top;
     margin-right: 2%;
 }
-section
+main
 {
-margin-bottom: 70px;
-text-align: justify;
+    display: inline-block;
+    border: 2px solid black;
+    width: 70%;
+    margin-left: 240px;
+    margin-right: 10px;
+    padding-left: 43px;
+    position: absolute;
+    top: 8px;
 }
-
-
+body
+{
+    display: block;
+    margin: 8px;
+}
+.test::before
+{
+    content: "\f192";
+    position: relative;
+    left: -20px;
+    font-family:"far fa-dot-circle" "aria-hidden="true";
+}
+.recom-flex
+{
+    display:inline-flex;
+    justify-content: space-around;
+    vertical-align: auto;
+    align-items: flex-end;
+    
+}
 
 
 
