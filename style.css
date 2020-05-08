@@ -67,12 +67,10 @@ aside
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 19%;
+    width: 32%;
     min-width: 230px;
     text-align: center;
     background-color: orange;
-    
-
 }
 section
 {
@@ -84,7 +82,7 @@ section
 main
 {
     display: inline-block;
-    width: 60%;
+    width: 68%;
     padding-left: 43px;
     top: 10px;
 }
@@ -152,40 +150,32 @@ article
 {
     width: 100%;
 }
-@media screen and (min-width: 780px) 
+@media screen and (max-width: 768px) 
 {
-    body 
+    header
     {
-        display: flex;
-        width: 98%;
-        margin: auto;
-        font-size: 13px;
-        font-family: "Orbitron";
-    }
-    main 
-    {
-        display:flex;
-        flex-direction: column;
-        width: 68%;
-        justify-content: space-around;
-        padding-left: 2%;
-
-    }
-    section 
-    {
-        display: flex;
         width: 100%;
-        margin-bottom: 2%;
     }
     aside
     {
-        display:flex;
-        flex-direction: column;
-        width: 32%;
-        justify-content: space-around;
+        width: 100%;
     }
+    body
+    {
+        display: block;
+    }
+    section 
+    {
+        overflow: hidden;
+    }
+   .interet
+   {
+       align-items: flex-end;
+       justify-content: space-around;
+   }
+    
 }
-
+  
 
 
 
