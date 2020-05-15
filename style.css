@@ -1,7 +1,7 @@
 
 header
 {
-    color: gray;
+    color: black;
     font-size: 1;
     width: 90%;
     margin: 0 auto;
@@ -9,12 +9,12 @@ header
 }
 strong
 {
-    text-decoration:underline burlywood;
-    color: orange;
+    text-decoration:underline black;
+    color:  teal;
 }
 span
 {
-    color: orange;
+    color: teal;
 }
 .photo img
 {
@@ -48,19 +48,19 @@ span
 }
 h3
 {
-    color: black;
-    border: 1px teal;
-    background: teal;
+    color: orange;
+    border: 1px black;
+    background: black;
     
 }
 h2
 {
-    border: 2px bisque unset;
-    box-shadow: 6px 6px 6px blanchedalmond;
+    border: 1px orange unset;
+    box-shadow: 1px 2px 0px orange;
 }
 i
 {
-    color:bisque;
+    color:orange;
 }
 aside
 {
@@ -93,6 +93,10 @@ body
     width: 80%;
     margin: auto;
 }
+footer
+{
+    width: 100%;
+}
 .firstListIcone::before
 { 
     content: "\f192";
@@ -100,7 +104,7 @@ body
     left: -20px;
     font-family: "Font Awesome 5 Free";
     top: 25%;
-    color: bisque;
+    color: orange;
 }
 .firstListIcone 
 { 
@@ -118,7 +122,7 @@ body
     left: -20px;
     font-family: "Font Awesome 5 Free";
     top: 20%;
-    color: bisque;
+    color: orange;
 }
 .secondListIcone
 {
@@ -132,6 +136,7 @@ body
 {
     border: 1px solid black;
     border-radius: 50%;
+    color: black;
     width: 35px;
     height: 35px;
     line-height: 1.5;
@@ -150,30 +155,84 @@ article
 {
     width: 100%;
 }
+
 @media screen and (max-width: 768px) 
 {
     header
     {
-        width: 100%;
+        width: 90%;
+        font-size: 1em;
+        margin: 0 auto;
+        text-align: end;
+        position: absolute;
+        top: 0px;
+        padding-bottom: 32px;
     }
     aside
     {
         width: 100%;
+        flex-wrap: wrap;
+        align-items: flex-start;
     }
     body
     {
-        display: block;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        border: 2px solid black;
+        width: 100%;
+        margin: auto;
     }
     section 
     {
         overflow: hidden;
     }
-   .interet
-   {
-       align-items: flex-end;
-       justify-content: space-around;
-   }
-    
+    article 
+    {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        background-color: orange;
+    }
+    h3 
+    {
+
+        color: orange;
+        border:1px black;
+        background: black;
+        margin-top: 0px;
+    }
+    .contact
+    {
+        padding: 0px;
+        margin: auto;
+        width: 100%;
+    }
+    main 
+    {
+        display: inline-block;
+        width: 90%;
+        padding-left: 43px;
+        top: 10px;
+        padding-bottom: 103px;
+    }
+    .photo
+    {
+        width: initial;
+        position: relative;
+        top: 3px;
+        right: 0px;
+        border:0px solid black;
+        box-shadow:0px 0px 2px black;
+        border-radius: 50%;
+    }
+    .prez
+    {
+        width: 100%;
+    }
+   
+
+   
 }
   
 
