@@ -10,7 +10,7 @@ header
 }
 strong
 {
-    color:  teal;
+    color: black;
     position: relative;
 }
 strong::after
@@ -21,11 +21,22 @@ strong::after
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: black;
+    background-color: orange;
+}
+li.listIcone 
+{
+    display: flex;
+    align-items: baseline;
+}
+.listIcone p 
+{
+    flex-grow: 1;
+    margin-bottom: -19px;
+    max-width: 59%;
 }
 span
 {
-    color: teal;
+    color: orange;
 }
 .test h4
 {
@@ -35,22 +46,22 @@ span
 }
 .comp 
 {
-    margin-bottom: -14px;
+    margin-bottom: 34px;
     margin-top: 0px;
     max-width: 59%;
 }
 .testSeconde
 {
-    margin-bottom: -10px;
+    margin-bottom: -20px;
     margin-top: 0px;
     max-width: 59%;
+    margin-left: 40px;
 }
 .photo img
 {
     width: 150px;
     height: 150px;
-    border:3px solid black;
-    box-shadow:0px 0px 10px orange;
+    box-shadow:1px 1px 10px black;
     border-radius: 50%;
 }
 .contact
@@ -156,6 +167,11 @@ footer
     margin-bottom: 34px;
     
 }
+.firstListIcone p
+{
+    flex-grow: 1;
+    left: 20px;
+}
 .secondListIcone::before
 {
     content: "\f192";
@@ -172,6 +188,10 @@ footer
     align-items: baseline;
     justify-content: space-between;
     position: relative;
+}
+.secondListIcone p
+{
+    flex-grow: 1;
 }
 .interet i 
 {
@@ -204,6 +224,7 @@ li::before
     display: inline-block;
     left: -15px;
     width: 1em;
+    top: 22px;
     margin-left: -1em;
 }
 ul
@@ -226,6 +247,19 @@ li{
         left: 0;
         padding-bottom: 42px;
     }
+    strong
+    {
+       color:  teal;
+    }
+    span
+   {
+
+    color: teal;
+   }
+   strong::after
+   {
+       background-color: black;
+   }
     aside
     {
         width: 100%;
@@ -282,9 +316,7 @@ li{
         top: 3px;
         padding-bottom: 81px;
         right: 0px;
-        border:0px solid black;
         box-shadow:0px 0px 0px black;
-        border-radius: 50%;
     }
     .prez
     {
