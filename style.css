@@ -2,7 +2,7 @@
 header
 {
     color: black;
-    font-size: 1;
+    font-size: 1em;
     width: 90%;
     margin: 0 auto;
     justify-content: center;
@@ -213,12 +213,22 @@ footer
 .recom-flex
 {
     display:inline-flex;
-    justify-content: space-around;
+    justify-content: space-between;
     vertical-align: auto;
     align-items: flex-end;
     
 }
-article
+ul.footUi
+{
+    display: flex;
+    justify-content: space-between;
+}
+.recom-flex
+{
+    list-style: none;
+}
+
+aside article
 {
     width: 100%;
 }
@@ -277,7 +287,6 @@ li{
         display: flex;
         position: relative;
         flex-direction: column;
-        border: 2px solid black;
         width: 100%;
         margin: auto;
     }
@@ -303,7 +312,6 @@ li{
     .contact
     {
         text-align:center ;
-        padding: 0px;
         margin: auto;
         width: 100%;
         margin-top: 30px;
