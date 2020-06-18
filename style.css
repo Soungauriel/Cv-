@@ -1,10 +1,13 @@
-
+body,ul,figure{margin: 0px;}
+*{
+    font-family: sans-serif;
+}
 header
 {
     color: black;
     font-size: 1em;
     width: 90%;
-    margin: 0 auto;
+    margin: 10px;
     justify-content: center;
     padding-left: -22px;
 }
@@ -38,17 +41,18 @@ span
 {
     color: orange;
 }
-.test
+.testList
 {
     margin-bottom: -14px;
-    margin-top: 0px;
+    margin-top: -15px;
     max-width: 70%;
+    padding: 15px;
 }
 .comp 
 {
     margin-bottom: -14px;
     margin-top: 0px;
-    max-width: 70%;
+    max-width: 72%;
 }
 .photo img
 {
@@ -61,13 +65,14 @@ span
 {
     margin-bottom: -14px;
     margin-top: 0px;
-    max-width: 70%;
+    max-width: 72%;
 }
 .compThree
 {
     margin-bottom: -14px;
-    margin-top: 0px;
+    margin-top: -15px;
     max-width: 70%;
+    padding: 15px;
 }
 .contact
 {
@@ -118,7 +123,7 @@ i
 {
     color:orange;
 }
-aside
+aside 
 {
     display: flex;
     flex-direction: column;
@@ -214,7 +219,6 @@ footer
 {
     display:inline-flex;
     justify-content: space-between;
-    vertical-align: auto;
     align-items: flex-end;
     
 }
@@ -228,11 +232,11 @@ ul.footUi
     list-style: none;
 }
 
-aside article
+article.loiz 
 {
     width: 100%;
 }
-li::before
+.orangeUl li::before
 {
     content: "\2022";
     color: orange;
@@ -251,6 +255,7 @@ li{
     position: relative;
 }
 
+
 @media screen and (max-width: 768px) 
 {
     header
@@ -265,12 +270,12 @@ li{
     }
     strong
     {
-       color:  teal;
+       color: black;
     }
     span
    {
 
-    color: teal;
+    color:black;
    }
    strong::after
    {
@@ -294,7 +299,7 @@ li{
     {
         overflow: hidden;
     }
-    article 
+    article.loiz 
     {
         width: 100%;
         position: absolute;
@@ -316,6 +321,10 @@ li{
         width: 100%;
         margin-top: 30px;
     }
+    .contact p
+    {
+        padding: 0px;
+    }
     main 
     {
         display: inline-block;
@@ -324,7 +333,7 @@ li{
         top: 10px;
         padding-bottom: 103px;
     }
-    .photo
+    .photo 
     {
         width: 100%;
         position: relative;
