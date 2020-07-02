@@ -7,9 +7,7 @@ header
     color: black;
     font-size: 1em;
     width: 90%;
-    margin: 10px;
     justify-content: center;
-    padding-left: -22px;
 }
 strong
 {
@@ -41,7 +39,7 @@ span
 {
     color: orange;
 }
-.testList
+.mainList
 {
     margin-bottom: -14px;
     margin-top: -15px;
@@ -123,7 +121,7 @@ i
 {
     color:orange;
 }
-aside 
+.secondImport
 {
     display: flex;
     flex-direction: column;
@@ -158,15 +156,27 @@ footer
 {
     width: 100%;
 }
+.orangeUl li::before
+{
+    content: "\2022";
+    color: orange;
+    position: absolute;
+    display: inline-block;
+    left: -15px;
+    width: 1em;
+    top: 22px;
+    margin-left: -1em;
+}
 .firstListIcone::before
 { 
-    content: "\f192";
+    content: "\f192"!important;
     position: absolute;
     left: -20px;
     font-family: "Font Awesome 5 Free";
     top: 11%;
     color: orange;
 }
+
 .firstListIcone 
 { 
     list-style: none;
@@ -185,7 +195,7 @@ footer
 }
 .secondListIcone::before
 {
-    content: "\f192";
+    content: "\f192"!important;
     position: absolute;
     left: -20px;
     font-family: "Font Awesome 5 Free";
@@ -236,17 +246,6 @@ article.loiz
 {
     width: 100%;
 }
-.orangeUl li::before
-{
-    content: "\2022";
-    color: orange;
-    position: absolute;
-    display: inline-block;
-    left: -15px;
-    width: 1em;
-    top: 22px;
-    margin-left: -1em;
-}
 ul
 {
     list-style: none;
@@ -281,7 +280,7 @@ li{
    {
        background-color: black;
    }
-    aside
+    .secondImport
     {
         width: 100%;
         flex-wrap: wrap;
