@@ -230,6 +230,7 @@ footer
     display:inline-flex;
     justify-content: space-between;
     align-items: flex-end;
+    padding-bottom: 15px;
     
 }
 ul.footUi
